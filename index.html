@@ -1,17 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Bola360 Demo</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bola360 - Berita Sepakbola Terkini</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col">
-  <header class="py-4 text-center text-2xl font-bold">⚽ Bola360 Demo</header>
-  <main id="news" class="grow max-w-xl mx-auto p-4 space-y-6">
-    <p class="opacity-70">Memuat berita…</p>
-  </main>
-  <footer class="text-center text-xs py-2 opacity-70">© 2025 Bola360</footer>
-  <script src="news.js"></script>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">Bola360</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Liga Inggris</a></li>
+                    <li><a href="#">La Liga</a></li>
+                    <li><a href="#">Serie A</a></li>
+                    <li><a href="#">Berita Transfer</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="headline">
+                <h2>Berita Utama Hari Ini</h2>
+                <div class="article-card">
+                    <img src="https://assets.goal.com/images/v3/blt8d488581e64901f2/Joao_Pedro_Brighton.jpg?auto=webp&format=pjpg&width=1080&quality=60" alt="Joao Pedro">
+                    <div class="article-content">
+                        <h3>RESMI: Chelsea Sepakati Transfer João Pedro Senilai £60 Juta!</h3>
+                        <p>Klub raksasa London, Chelsea, dilaporkan telah mencapai kesepakatan penuh dengan Brighton & Hove Albion untuk transfer penyerang berbakat, João Pedro...</p>
+                        <a href="berita-pertama.html" class="read-more-btn">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="more-news">
+                <h2>Berita Lainnya</h2>
+                <p>Belum ada berita lainnya saat ini.</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Bola360. Semua Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
